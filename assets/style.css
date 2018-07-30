@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+  }
+  .navigation
+  {
+    background: white;
+    overflow: hidden;
+    border-bottom-style: groove;
+    padding-right: 220px;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  
+  .navigation h1 {
+    color: white;
+    margin-left: 200px;
+    padding: 20px;
+    padding-bottom: 25px;
+    background: #4aaaa5;
+    display: inline;
+    font-size: px;
+  }
+  
+  .navigation a {
+    float: right;
+    text-align: center;
+    background: #ffffff;
+    width: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  a:link {
+    color: #B2A89F;
+    text-decoration: none;
+  }
+  
+  .content {
+    margin-top: 35px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: solid;
+    padding: 20px;
+    
+  }
+  
+  .image {
+    
+  }
+  
+  .content p {
+    float: right;
+    clear: left;
+  }
