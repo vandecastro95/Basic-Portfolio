@@ -1,54 +1,126 @@
 *{
-    box-sizing: border-box;
-  }
-  .navigation
-  {
-    background: white;
-    overflow: hidden;
-    border-bottom-style: groove;
-    padding-right: 220px;
-    margin-left: -10px;
-    margin-right: -10px;
-  }
+  box-sizing: border-box;
+}
+
+body {
+background-image: url("swirl_pattern.png");
+}
+
+.navigation
+{
+  background: white;
+  overflow: hidden;
+  border-bottom-style: groove;
+  padding-right: 220px;
+  margin-left: -10px;
+  margin-right: -10px;
+  position: relative;
+  top: -12px;
+}
+
+.navigation h1 {
+  color: white;
+  margin-left: 200px;
+  padding: 20px;
+  padding-bottom: 25px;
+  background: #4aaaa5;
+  display: inline;
+  position: relative;
+  top: 10px;
+}
+
+.navigation a {
+  float: right;
+  text-align: center;
+  background: #ffffff;
+  width: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a:link {
+  color: #B2A89F;
+  text-decoration: none;
+}
+
+.content {
+  margin-top: 35px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: groove;
+  padding: 20px;
+  background-color: #ffffff;
   
-  .navigation h1 {
-    color: white;
-    margin-left: 200px;
-    padding: 20px;
-    padding-bottom: 25px;
-    background: #4aaaa5;
-    display: inline;
-    font-size: px;
-  }
+}
+.content h1 {
+  color: #4aaaa5;
+}
+
+.content img {
+  float:left;
+  padding-right: 20px;
+}
+
+input {
+  width: 100%;
+}
+
+.message {
+  height: 200px;
+}
+
+.submit {
+  background: #4aaaa5;
+  padding: 5px 10px;
+  color: white;
+  border-style: none;
+}
+
+.gallery {
+  width: 960px;
+  height: 900px;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: groove;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.gallery ul {
+list-style: none;
+text-align: center;
+overflow: hidden;
+}
+.gallery ul li {
+  height: 200px;
+  width: 350px;
+  margin: 10px;
+  background-image: url("http://via.placeholder.com/350x200");
+  display: inline-block;
   
-  .navigation a {
-    float: right;
-    text-align: center;
-    background: #ffffff;
-    width: 80px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  
-  a:link {
-    color: #B2A89F;
-    text-decoration: none;
-  }
-  
-  .content {
-    margin-top: 35px;
-    margin-left: 200px;
-    margin-right: 200px;
-    border: solid;
-    padding: 20px;
-    
-  }
-  
-  .image {
-    
-  }
-  
-  .content p {
-    float: right;
-    clear: left;
-  }
+}
+
+.Hangman {
+  float: left;
+}
+
+.Rock {
+  float: left;
+}
+
+.Trivia {
+  float: left;
+}
+
+.RPG {
+  float: right;
+  position: relative;
+  right: 70px;
+}
+
+.Rutgers {
+  float: right;
+  position: relative;
+  right: 70px;
+}
