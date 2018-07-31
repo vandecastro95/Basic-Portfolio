@@ -1,8 +1,14 @@
 *{
     box-sizing: border-box;
   }
+
+  body {
+    background-image: url("swirl_pattern.png");
+  }
   .navigation
   {
+      position: relative;
+    top: -10px;
     background: white;
     overflow: hidden;
     border-bottom-style: groove;
@@ -19,6 +25,9 @@
     background: #4aaaa5;
     display: inline;
     font-size: px;
+    
+  position: relative;
+  top: 10px;
   }
   
   .navigation a {
@@ -39,16 +48,24 @@
     margin-top: 35px;
     margin-left: 200px;
     margin-right: 200px;
-    border: solid;
+    border: groove;
     padding: 20px;
+    background: #ffffff;
     
   }
+  .content h1 {
+    color: #4aaaa5;
+  }
   
-  .image {
-    
+  .content img {
+    float: left;
+    margin-right: 10px;
+    clear:both;
+}
   }
   
   .content p {
-    float: right;
-    clear: left;
+        margin-left: 0px;
+        overflow:auto;
+        display:block;
   }
