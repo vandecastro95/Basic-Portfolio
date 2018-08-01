@@ -4,29 +4,32 @@
 
 body {
 background-image: url("swirl_pattern.png");
+overflow-y: scroll;
 }
 
 .navigation
-{
+{ 
+  z-index: 99999;
+  width: 100%;
   background: white;
   overflow: hidden;
   border-bottom-style: groove;
   padding-right: 220px;
-  margin-left: -10px;
   margin-right: -10px;
-  position: relative;
-  top: -12px;
+  position: fixed;
+  top: -10px;
 }
 
 .navigation h1 {
   color: white;
+  overflow: hidden;
+  top: 12px;
   margin-left: 200px;
   padding: 20px;
   padding-bottom: 25px;
   background: #4aaaa5;
   display: inline;
   position: relative;
-  top: 10px;
 }
 
 .navigation a {
@@ -44,7 +47,8 @@ a:link {
 }
 
 .content {
-  margin-top: 35px;
+  
+  margin-top: 80px;
   margin-left: 200px;
   margin-right: 200px;
   border: groove;
@@ -54,6 +58,7 @@ a:link {
 }
 .content h1 {
   color: #4aaaa5;
+  margin-top: -8px;
 }
 
 .content img {
@@ -76,27 +81,16 @@ input {
   border-style: none;
 }
 
-.gallery {
-  width: 960px;
-  height: 900px;
-  margin-top: 20px;
-  margin-left: 200px;
-  margin-right: 200px;
-  border: groove;
-  padding: 20px;
-  background-color: #ffffff;
-}
-
-.gallery ul {
+.content ul {
 list-style: none;
 text-align: center;
 overflow: hidden;
 }
-.gallery ul li {
+.content ul li {
   height: 200px;
   width: 350px;
   margin: 10px;
-  background-image: url("http://via.placeholder.com/350x200");
+  background-color: #4aaaa5;
   display: inline-block;
   
 }
