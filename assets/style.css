@@ -47,6 +47,10 @@ a:link {
   text-decoration: none;
 }
 
+a:hover {
+
+}
+
 .content {
   
   margin-top: 80px;
@@ -69,6 +73,17 @@ a:link {
 
 input {
   width: 100%;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+input:focus{
+  border-color: black; 
+}
+
+textarea{
+   height: 100px;
+   width: 100%;
 }
 
 .message {
@@ -117,5 +132,50 @@ h4 {
   margin-top: 160px;
   font-size: 23px;
   color: white;
-  font-family: 'Sans-serif';
+  font-family: 'Serif';
+  font-weight: normal;
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  margin-top: 15px;
+  background-color: gray;
+  border-color: #4aaaa5;
+  border-top-style: solid;
+  text-align: center;
+  padding-top: 25px;
+  position: absolute;
+  margin-bottom: 100%;
+}
+
+/* HOVER */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/*SCROLLBAR*/
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: darkgrey;
+outline: 1px solid slategrey;
 }
